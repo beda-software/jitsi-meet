@@ -348,9 +348,11 @@ config.transcription = {
     // translationLanguages: {{ $TRANSLATION_LANGUAGES }},
     // translationLanguagesHead: {{ $TRANSLATION_LANGUAGES_HEAD }},
     useAppLanguage: true,
+    preferredLanguage: 'en-US',
+    disableStartForAll: false,
     // preferredLanguage: '{{ $PREFERRED_LANGUAGE }}',
     // disableStartForAll: {{ $DISABLE_START_FOR_ALL }},
-    autoCaptionOnRecord: true,//{{ $AUTO_CAPTION_ON_RECORD }},
+    autoCaptionOnRecord: false,//{{ $AUTO_CAPTION_ON_RECORD }},
 };
 
 // Dynamic branding
