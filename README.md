@@ -1,5 +1,18 @@
 # Jitsi Meet on Docker
 
+```
+docker compose -f docker-compose.yml -f jigasi.yml -f jibri.yml up
+
+
+# Application identifier
+JWT_APP_ID=my_jitsi_app_id
+JWT_APP_SECRET=my_jitsi_app_secret
+JWT_ACCEPTED_ISSUERS=my_web_client,my_app_client
+JWT_ACCEPTED_AUDIENCES=my_server1,my_server2
+```
+
+
+
 ![](resources/jitsi-docker.png)
 
 [Jitsi](https://jitsi.org/) is a set of Open Source projects that allows you to easily build and deploy secure videoconferencing solutions.
